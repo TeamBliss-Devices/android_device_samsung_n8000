@@ -4,14 +4,14 @@
 PRODUCT_RELEASE_NAME := n8000
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/n8000/full_n8000.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := n8000
-PRODUCT_NAME := cm_n8000
+PRODUCT_NAME := bliss_n8000
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := GT-N8000
 PRODUCT_MANUFACTURER := samsung
